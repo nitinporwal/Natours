@@ -1,6 +1,10 @@
 .header {
   height: 95vh;
-  background-image: linear-gradient(to right bottom, #7ed56fd5, #28b485d7),
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-primary-light, 0.8),
+      rgba($color-primary-dark, 0.8)
+    ),
     url(../img/hero.jpg);
   background-position: top;
   background-size: cover;
